@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Projects | Konstantinos Lamprou</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+      html { scroll-behavior: smooth; }
+
+      .filters { margin: 0 0 1.5rem 0; }
+      .filters .button { margin: 0 .5rem .5rem 0; }
+      .work-item[hidden] { display: none !important; }
+    </style>
+  </head>
+
+  <body class="is-preload">
+    <!-- Header -->
+    <header id="header">
+      <div class="inner">
+        <a href="index.html" class="image avatar">
+          <img src="images/main.jpg" alt="Konstantinos Lamprou" />
+        </a>
+        <h1>
+          <strong>Projects</strong><br />
+          AI · SQL · Power BI · Machine Learning · Python
+        </h1>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <div id="main">
+      <section id="projects">
+        <header class="major">
+          <h2>Portfolio</h2>
+        </header>
+
+        <!-- Filter "slicer" -->
+        <div class="filters">
+          <a href="#" class="button small" data-filter="all">All Posts</a>
+          <a href="#" class="button small" data-filter="ai">AI Projects</a>
+          <a href="#" class="button small" data-filter="sql">SQL Projects</a>
+          <a href="#" class="button small" data-filter="bi">Power BI Projects</a>
+          <a href="#" class="button small" data-filter="ml">Machine Learning Projects</a>
+          <a href="#" class="button small" data-filter="python">Python Projects</a>
+        </div>
+
+        <!-- Projects grid -->
+        <div class="row">
+
+          <!-- 1st Project (Machine Learning) -->
+          <article class="col-6 col-12-xsmall work-item" data-category="ml">
+            <a href="https://github.com/LamprouKon/Diamond-Price-Prediction"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="image fit thumb">
+              <img src="images/projects/Diamond-Price-Prediction.jpg" alt="Diamond Price Prediction Project" />
+            </a>
+            <h3>Diamond Price Prediction Project</h3>
+            <p>
+              Machine learning pipeline for diamond price prediction, comparing multiple regression models and evaluating performance through structured preprocessing and model validation.
+            </p>
+          </article>
+
+        </div>
+
+        <ul class="actions">
+          <li><a href="index.html" class="button">Back to Home</a></li>
+          <li><a href="about.html" class="button">About</a></li>
+        </ul>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <!-- Replace later -->
+          <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+          <li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+          <li><a href="mailto:YOUR_EMAIL" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Konstantinos Lamprou</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.poptrox.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+    <!-- Filter JS -->
+    <script>
+      (function () {
+        const buttons = document.querySelectorAll("[data-filter]");
+        const items = document.querySelectorAll(".work-item[data-category]");
+
+        function applyFilter(filter) {
+          items.forEach((item) => {
+            const cat = item.getAttribute("data-category");
+            const show = (filter === "all" || cat === filter);
+            item.hidden = !show;
+          });
+        }
+
+        buttons.forEach((btn) => {
+          btn.addEventListener("click", (e) => {
+            e.preventDefault();
+            applyFilter(btn.getAttribute("data-filter"));
+          });
+        });
+
+        applyFilter("all");
+      })();
+    </script>
+  </body>
+</html>
