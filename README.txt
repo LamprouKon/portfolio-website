@@ -10,4 +10,5 @@ My work focuses on:
 🔎 Applying exploratory data analysis to uncover meaningful patterns  
 ⚙️ Designing automated workflows and AI-driven processes  
 
-I work end-to-end — from requirements analysis and solution architecture to implementation and delivery — always aligning technology with measurable business impact.
+I work end-to-end , from requirements analysis and solution architecture to implementation and delivery — always aligning technology with measurable business impact.
+
