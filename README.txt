@@ -1,33 +1,13 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+👋 Hi, I’m Konstantinos — an AI Solutions Architect with a background in Data Science and Business Intelligence.
 
+I design and deliver data-driven and AI-powered solutions that help organizations move from raw information to structured decision-making.
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+My work focuses on:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+🧠 Turning complex business problems into scalable data & AI systems  
+📊 Building analytics frameworks, dashboards, and decision-support tools  
+🤖 Developing machine learning solutions  
+🔎 Applying exploratory data analysis to uncover meaningful patterns  
+⚙️ Designing automated workflows and AI-driven processes  
 
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
-
-
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+I work end-to-end — from requirements analysis and solution architecture to implementation and delivery — always aligning technology with measurable business impact.
